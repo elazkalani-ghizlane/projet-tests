@@ -7,11 +7,7 @@ def calculer_prix_nuit(prix_base, nb_nuits, frais_menage=50):
     - Le nombre de nuits
     - Des frais de mÃ©nage (par dÃ©faut 50â‚¬)
     """
-    return (prix_base * nb_nuits) + frais_menage
-
-
-
-    
+    return (prix_base * nb_nuits) + frais_menage    
 
 
 class TestCalculPrixNuit(unittest.TestCase):
